@@ -8,7 +8,7 @@ import { HousingLocation } from '../housinglocation';
   standalone: true,
   imports: [CommonModule, HousingLocationComponent],
   templateUrl: './home.component.html',
-  styleUrl: './home.component.css'
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {
   readonly baseUrl = 'https://angular.dev/assets/tutorials/common';
